@@ -1,2 +1,2 @@
 # template-class
-This is a basic implementation of a template node and queue class.
+This is a basic linked list implementation of a template Queue class.
