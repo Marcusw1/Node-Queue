@@ -51,18 +51,15 @@ class Queue {
       if ( count != 0) {
    
         T tempValue = temp->value;
-       
-        temp->value = tempValue;
         beginning = beginning->next;
         
          delete temp;
          temp = NULL;
-         
+        
         count--;
+        
         return tempValue;
       } else {
-          beginning = NULL;
-          end = NULL;
           return  T();
       }
 }
